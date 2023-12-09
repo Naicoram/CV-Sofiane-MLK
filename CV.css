@@ -1,43 +1,121 @@
 html{
-    background-color:#782221 ;
+    background-color:white ;
 }
 h1{
     text-align: center;
     color: white;
+    font-family: 'Lato', sans-serif;
 }
 h2{
     text-align: center;
     color: white;
+    font-family: 'Lato', sans-serif;
 }
-img{
-    width: 10%;
+h4 {
+    background-color: #dbc2a4;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+header{
+    background-color: #782221;
+}
+header img{
+    width: 20%;
     display: block ;
     margin-left: auto;
     margin-right: auto;
-     
-}
-.img-border-radius{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 1);
+    cursor: zoom-in;
     border-radius: 50%;
 }
 address{
     background-color: #2c1d27; 
     color: white;
     display: block;
+    font-family: 'Raleway', sans-serif; 
 }
-
-/* header > address > p
-{
-    text-align : left;
-} */
-
-#AddressCenter
-{
-    text-align : center;
+address h3 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
-h3 {
-    background-color: #dbc2a4;
+address h3 a:hover{
+    text-decoration: underline;
 }
-div ::content{
-    border-right-color: white;
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    background-color: #782221 ;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+}
+.left-column {
+    color: white;
+    width: 25%;
+}
+.section{
+    margin-right: 10px;
+}
+.section h4{
+    padding-left: 10px;
+}
+.section p{
+    padding-left: 20px;
+}
+.indent p{
+    text-indent: 20px;
+}
+.section li{
+    padding-left: 10px;
+}
+.section h4 p{
+    text-indent: 100px;
+}
+.right-column {
+    background-color: white;
+    width: 75%;
+    border-right: 1px solid black;
+}
+.content{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.content h4{
+    border-left: 5px solid #782221;
+    border-right: none;
+}
+.content h4:hover{
+    border-right: 5px solid #782221
+}
+.cv-container {
+    display: flex;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: #782221;
+}
+img.logo{
+    border-radius: 25%;
+    opacity: 1;
+}
+img.logo:hover{
+    opacity: 0,5;
+}
+.logo-container{
+    display: flex; 
+    justify-content: center;
+}
+img{
+    width: 40px;
+    margin: 10px;
 }
